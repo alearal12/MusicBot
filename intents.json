@@ -1,0 +1,394 @@
+{
+    "intents": [
+    {
+    "tag": "greeting",
+    "patterns": [
+    "Hi",
+    "Hey",
+    "How are you",
+    "Is anyone there?",
+    "Hello",
+    "Good day"
+    ],
+    "responses": [
+    "Hey :-)",
+    "Hello, thanks for visiting",
+    "Hi there, what can I do for you?",
+    "Hi there, how can I help?"
+    ]
+    },
+    {
+    "tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": [
+    "See you later, thanks for visiting",
+    "Have a nice day",
+    "Bye! Come back again soon."
+    ]
+    },
+    {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+    "tag": "pop_music",
+    "patterns": [
+    "Recommend some pop music",
+    "What are some popular pop songs?",
+    "Can you suggest pop artists?",
+    "I want to listen to pop music",
+    "Tell me about pop music"
+    ],
+    "responses": [
+    "I recommend listening to The Weeknd, Dua Lipa, and Ed Sheeran.",
+    "Some popular pop songs are 'Blinding Lights' by The Weeknd and 'Drivers License' by Olivia Rodrigo.",
+    "Check out artists like Dua Lipa, Justin Bieber, and Billie Eilish.",
+    "Pop music is a genre characterized by catchy melodies, rhythmic beats, and mainstream appeal. It often features a combination of vocals and electronic instruments."
+    ]
+    },
+    {
+    "tag": "rap_music",
+    "patterns": [
+    "Give me some rap music recommendations",
+    "Who are the best rap artists?",
+    "What are some popular rap songs?",
+    "I want to listen to rap music",
+    "Tell me about rap music"
+    ],
+    "responses": [
+    "I suggest listening to Kendrick Lamar, Eminem, and J Cole.",
+    "Some popular rap songs are 'Money Trees' by Kendrick Lamar and 'Work Out' by J Cole.",
+    "Check out artists like J. Cole, Tupac, and MF DOOM.",
+    "Rap music is a genre characterized by rhythmical and rhyming speech delivery. It often addresses various social, political, and personal topics and is known for its lyrical complexity and wordplay."
+    ]
+    },
+    {
+    "tag": "rock_music",
+    "patterns": [
+    "Recommend some rock music",
+    "Who are the best rock bands?",
+    "Can you suggest rock songs?",
+    "I want to listen to rock music",
+    "Tell me about rock music"
+    ],
+    "responses": [
+    "I recommend listening to Queen, AC/DC, and Foo Fighters.",
+    "Some popular rock songs are 'Bohemian Rhapsody' by Queen and 'Highway to Hell' by AC/DC.",
+    "Check out bands like Coldplay, Imagine Dragons, and Arctic Monkeys.",
+    "Rock music is a genre characterized by its use of guitars, drums, and energetic performances. It encompasses a wide range of subgenres, including classic rock, alternative rock, and hard rock."
+    ]
+    },
+    {
+        "tag": "country_music",
+        "patterns": [
+          "Recommend some country music",
+          "Who are the best country artists?",
+          "Can you suggest country songs?",
+          "I want to listen to country music",
+          "Tell me about country music"
+        ],
+        "responses": [
+          "I suggest listening to artists like Luke Bryan, Carrie Underwood, and Blake Shelton.",
+          "Some popular country songs are 'Body Like a Back Road' by Sam Hunt and 'Before He Cheats' by Carrie Underwood.",
+          "Check out artists like Johnny Cash, Dolly Parton, and Keith Urban.",
+          "Country music is a genre rooted in traditional folk music and storytelling. It often features themes of love, heartbreak, and rural life, accompanied by instruments such as guitars, fiddles, and banjos."
+        ]
+      },
+      {
+        "tag": "hip_hop_music",
+        "patterns": [
+          "Recommend some hip-hop music",
+          "Who are the best hip-hop artists?",
+          "What are some popular hip-hop songs?",
+          "I want to listen to hip-hop music",
+          "Tell me about hip-hop music"
+        ],
+        "responses": [
+          "I suggest listening to artists like Drake, Kendrick Lamar, and Travis Scott.",
+          "Some popular hip-hop songs are 'Sicko Mode' by Travis Scott and 'God's Plan' by Drake.",
+          "Check out artists like Jay-Z, Kanye West, and Cardi B.",
+          "Hip-hop music is a genre characterized by its rhythmic and rhyming vocal style. It emerged as a cultural movement in the 1970s in African American and Latino communities and has since become a global phenomenon."
+        ]
+      },
+      {
+        "tag": "edm_music",
+        "patterns": [
+          "Recommend some EDM music",
+          "Who are the best EDM artists?",
+          "What are some popular EDM songs?",
+          "I want to listen to EDM music",
+          "Tell me about EDM music"
+        ],
+        "responses": [
+          "I suggest listening to artists like Martin Garrix, Avicii, and Calvin Harris.",
+          "Some popular EDM songs are 'Wake Me Up' by Avicii and 'Animals' by Martin Garrix.",
+          "Check out artists like The Chainsmokers, Zedd, and Marshmello.",
+          "EDM (Electronic Dance Music) is a genre known for its energetic and danceable beats. It encompasses various subgenres such as house, techno, trance, and dubstep, and is often played at festivals and clubs."
+        ]
+      },
+      {
+        "tag": "jazz_music",
+        "patterns": [
+          "Recommend some jazz music",
+          "Who are the best jazz artists?",
+          "What are some popular jazz songs?",
+          "I want to listen to jazz music",
+          "Tell me about jazz music"
+        ],
+        "responses": [
+          "I suggest listening to artists like Miles Davis, Louis Armstrong, and Ella Fitzgerald.",
+          "Some popular jazz songs are 'Take Five' by Dave Brubeck and 'Summertime' by Ella Fitzgerald.",
+          "Check out artists like John Coltrane, Billie Holiday, and Duke Ellington.",
+          "Jazz music is a genre characterized by its improvisation, swing feel, and unique harmonic structures. It originated in African American communities in the late 19th and early 20th centuries and has since evolved into various styles and subgenres."
+        ]
+      },
+      {
+        "tag": "classical_music",
+        "patterns": [
+          "Give me some classical music recommendations",
+          "Who are the best classical composers?",
+          "What are some popular classical pieces?"
+        ],
+        "responses": [
+          "I suggest listening to Ludwig van Beethoven, Wolfgang Amadeus Mozart, and Johann Sebastian Bach.",
+          "Some popular classical pieces are Beethoven's Symphony No. 9, Mozart's Symphony No. 40, and Bach's Brandenburg Concerto No. 3.",
+          "Check out composers like Frederic Chopin, Franz Schubert, and Antonio Vivaldi."
+        ]
+      },
+      {
+        "tag": "alternative_music",
+        "patterns": [
+          "Recommend some alternative music",
+          "Who are the best alternative bands?",
+          "Can you suggest alternative songs?"
+        ],
+        "responses": [
+          "I recommend listening to Arctic Monkeys, Radiohead, and The Killers.",
+          "Some popular alternative songs are 'Smells Like Teen Spirit' by Nirvana and 'Mr. Brightside' by The Killers.",
+          "Check out bands like Muse, Twenty One Pilots, and Imagine Dragons."
+        ]
+      },
+      {
+        "tag": "rnb_music",
+        "patterns": [
+          "Give me some R&B music recommendations",
+          "Who are the best R&B artists?",
+          "What are some popular R&B songs?"
+        ],
+        "responses": [
+          "I suggest listening to Beyoncé, Usher, and Frank Ocean.",
+          "Some popular R&B songs are 'Crazy in Love' by Beyoncé and Jay-Z, and 'Adorn' by Miguel.",
+          "Check out artists like Rihanna, Alicia Keys, and The Weeknd."
+        ]
+      },
+      {
+        "tag": "metal_music",
+        "patterns": [
+          "Recommend some metal music",
+          "Who are the best metal bands?",
+          "Can you suggest metal songs?"
+        ],
+        "responses": [
+          "I recommend listening to Metallica, Iron Maiden, and Black Sabbath.",
+          "Some popular metal songs are 'Enter Sandman' by Metallica and 'Paranoid' by Black Sabbath.",
+          "Check out bands like Slipknot, Avenged Sevenfold, and Megadeth."
+        ]
+      },
+      {
+        "tag": "indie_music",
+        "patterns": [
+          "Give me some indie music recommendations",
+          "Who are the best indie artists?",
+          "What are some popular indie songs?"
+        ],
+        "responses": [
+          "I suggest listening to Tame Impala, Vampire Weekend, and Arctic Monkeys.",
+          "Some popular indie songs are 'Feel It Still' by Portugal. The Man and 'Pumped Up Kicks' by Foster the People.",
+          "Check out artists like The Strokes, Arcade Fire, and Alt-J."
+        ]
+      },
+      {
+        "tag": "latin_music",
+        "patterns": [
+          "Recommend some Latin music",
+          "Who are the best Latin artists?",
+          "Can you suggest Latin songs?"
+        ],
+        "responses": [
+          "I recommend listening to Shakira, J Balvin, and Marc Anthony.",
+          "Some popular Latin songs are 'Hips Don't Lie' by Shakira and 'Mi Gente' by J Balvin and Willy William.",
+          "Check out artists like Bad Bunny, Rosalía, and Romeo Santos."
+        ]
+      },
+      {
+        "tag": "reggae_music",
+        "patterns": [
+          "Give me some reggae music recommendations",
+          "Who are the best reggae artists?",
+          "What are some popular reggae songs?"
+        ],
+        "responses": [
+          "I suggest listening to Bob Marley, Damian Marley, and Toots and The Maytals.",
+          "Some popular reggae songs are 'Three Little Birds' by Bob Marley and 'Redemption Song' by Bob Marley.",
+          "Check out artists like Sean Paul, Ziggy Marley, and Buju Banton."
+        ]
+      },
+      {
+        "tag": "folk_music",
+        "patterns": [
+          "Recommend some folk music",
+          "Who are the best folk artists?",
+          "Can you suggest folk songs?"
+        ],
+        "responses": [
+          "I recommend listening to Bob Dylan, Joni Mitchell, and Simon & Garfunkel.",
+          "Some popular folk songs are 'Blowin' in the Wind' by Bob Dylan and 'Big Yellow Taxi' by Joni Mitchell.",
+          "Check out artists like Mumford & Sons, The Lumineers, and Fleet Foxes."
+        ]
+      },
+      {
+        "tag": "punk_music",
+        "patterns": [
+          "Give me some punk music recommendations",
+          "Who are the best punk bands?",
+          "What are some popular punk songs?"
+        ],
+        "responses": [
+          "I suggest listening to Sex Pistols, Ramones, and The Clash.",
+          "Some popular punk songs are 'Anarchy in the U.K.' by Sex Pistols and 'Blitzkrieg Bop' by Ramones.",
+          "Check out bands like Green Day, Blink-182, and NOFX."
+        ]
+      },
+      {
+        "tag": "blues_music",
+        "patterns": [
+          "Recommend some blues music",
+          "Who are the best blues artists?",
+          "Can you suggest blues songs?"
+        ],
+        "responses": [
+          "I recommend listening to B.B. King, Eric Clapton, and Stevie Ray Vaughan.",
+          "Some popular blues songs are 'The Thrill Is Gone' by B.B. King and 'Crossroads' by Cream.",
+          "Check out artists like Muddy Waters, John Lee Hooker, and Buddy Guy."
+        ]
+      },
+      {
+        "tag": "disco_music",
+        "patterns": [
+          "Give me some disco music recommendations",
+          "Who are the best disco artists?",
+          "What are some popular disco songs?"
+        ],
+        "responses": [
+          "I suggest listening to Bee Gees, Donna Summer, and KC and The Sunshine Band.",
+          "Some popular disco songs are 'Stayin' Alive' by Bee Gees and 'I Will Survive' by Gloria Gaynor.",
+          "Check out artists like ABBA, Chic, and Earth, Wind & Fire."
+        ]
+      },
+      {
+        "tag": "soul_music",
+        "patterns": [
+          "Recommend some soul music",
+          "Who are the best soul artists?",
+          "Can you suggest soul songs?"
+        ],
+        "responses": [
+          "I recommend listening to Aretha Franklin, Marvin Gaye, and Stevie Wonder.",
+          "Some popular soul songs are 'Respect' by Aretha Franklin and 'What's Going On' by Marvin Gaye.",
+          "Check out artists like Al Green, Otis Redding, and Amy Winehouse."
+        ]
+      },
+      {
+        "tag": "regional_music",
+        "patterns": [
+          "Give me some regional music recommendations",
+          "Who are the best regional artists?",
+          "What are some popular regional songs?"
+        ],
+        "responses": [
+          "I suggest listening to Lata Mangeshkar, Nusrat Fateh Ali Khan, and Ravi Shankar.",
+          "Some popular regional songs are 'Lag Ja Gale' by Lata Mangeshkar and 'Afreen Afreen' by Nusrat Fateh Ali Khan.",
+          "Check out artists like A.R. Rahman, Shankar Mahadevan, and Shreya Ghoshal."
+        ]
+      },
+      {
+        "tag": "hip_hop_music",
+        "patterns": [
+          "Recommend some hip-hop music",
+          "Who are the best hip-hop artists?",
+          "Can you suggest hip-hop songs?"
+        ],
+        "responses": [
+          "I recommend listening to Jay-Z, Drake, and Kanye West.",
+          "Some popular hip-hop songs are 'Empire State of Mind' by Jay-Z and Alicia Keys, and 'God's Plan' by Drake.",
+          "Check out artists like Kendrick Lamar, Travis Scott, and Cardi B."
+        ]
+      },
+      {
+        "tag": "gospel_music",
+        "patterns": [
+          "Give me some gospel music recommendations",
+          "Who are the best gospel artists?",
+          "What are some popular gospel songs?"
+        ],
+        "responses": [
+          "I suggest listening to Kirk Franklin, Yolanda Adams, and Mahalia Jackson.",
+          "Some popular gospel songs are 'Stomp' by Kirk Franklin and 'Open My Heart' by Yolanda Adams.",
+          "Check out artists like Tasha Cobbs Leonard, Fred Hammond, and CeCe Winans."
+        ]
+      },
+      {
+        "tag": "instrumental_music",
+        "patterns": [
+          "Recommend some instrumental music",
+          "Who are the best instrumental artists?",
+          "Can you suggest instrumental songs?"
+        ],
+        "responses": [
+          "I recommend listening to Yanni, Ludovico Einaudi, and Hans Zimmer.",
+          "Some popular instrumental songs are 'River Flows in You' by Yiruma and 'Time' by Hans Zimmer.",
+          "Check out artists like Joe Hisaishi, Max Richter, and Brian Eno."
+        ]
+      },
+      {
+        "tag": "k-pop_music",
+        "patterns": [
+          "Give me some K-pop music recommendations",
+          "Who are the best K-pop artists?",
+          "What are some popular K-pop songs?"
+        ],
+        "responses": [
+          "I suggest listening to BTS, BLACKPINK, and TWICE.",
+          "Some popular K-pop songs are 'Dynamite' by BTS and 'Kill This Love' by BLACKPINK.",
+          "Check out artists like EXO, Red Velvet, and GOT7."
+        ]
+      },
+      {
+        "tag": "classical_indian_music",
+        "patterns": [
+          "Recommend some classical Indian music",
+          "Who are the best classical Indian artists?",
+          "Can you suggest classical Indian songs?"
+        ],
+        "responses": [
+          "I recommend listening to Pandit Ravi Shankar, Ustad Zakir Hussain, and Ustad Bismillah Khan.",
+          "Some popular classical Indian songs are 'Raga Yaman' by Pandit Ravi Shankar and 'Mile Sur Mera Tumhara' by various artists.",
+          "Check out artists like Hariprasad Chaurasia, M. S. Subbulakshmi, and Ali Akbar Khan."
+        ]
+      },
+      {
+        "tag": "bollywood_music",
+        "patterns": [
+          "Give me some Bollywood music recommendations",
+          "Who are the best Bollywood artists?",
+          "What are some popular Bollywood songs?"
+        ],
+        "responses": [
+          "I suggest listening to Arijit Singh, Neha Kakkar, and AR Rahman.",
+          "Some popular Bollywood songs are 'Tum Hi Ho' by Arijit Singh and 'Channa Mereya' by Arijit Singh.",
+          "Check out artists like Atif Aslam, Shreya Ghoshal, and Rahat Fateh Ali Khan."
+        ]
+      }
+    ]
+  }
